@@ -22,7 +22,7 @@ Retrieves detailed information about rooms in a property.
 
 A successful request to this endpoint returns an object containing detailed information about the room, including identifiers, room characteristics, rental terms, images, and availability dates.
 
-#### Response Object
+#### Response Object [Array of Object]
 
 - `_id`: Object containing the unique identifier of the room.
   - `$oid`: String representing the ObjectId of the room in MongoDB.
