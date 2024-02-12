@@ -15,7 +15,7 @@ This API provides detailed information about a specific room within a property, 
 
 `GET https://thekarnani.com//api/properties`
 
-Retrieves detailed information about a specific room by its unique identifier.
+Retrieves detailed information about rooms in a property.
 
 
 ### Response Format
@@ -31,7 +31,7 @@ A successful request to this endpoint returns an object containing detailed info
 - `roomCategory`: String describing the room's category (e.g., "Non Ensuite").
 - `floor`: String specifying the floor on which the room is located.
 - `propertyAddress`: String containing the full address of the property.
-- `virtualTourLink`: String URL to a virtual tour of the room.
+- `virtualTourLink`: String URL to a virtual tour of the room. (youtube)
 - `bathroomCount`: Number indicating how many bathrooms are available.
 - `monthlyRent`: Number representing the monthly rent price in the local currency.
 - `tenantPreference`: String indicating the preferred type of tenant (e.g., "Individual Only").
